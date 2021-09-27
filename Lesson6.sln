@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork6_Task2", "HomeWork
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork6_Task3", "HomeWork6_Task3\HomeWork6_Task3.csproj", "{BCF253AE-3E33-44C8-B64C-2F423585FB6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SApp02_CORE", "SApp02_CORE\SApp02_CORE.csproj", "{5E7D67C9-B8A5-42D5-8C01-E5969ADF9398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderCreation", "FolderCreation\FolderCreation.csproj", "{654F7990-22E0-468C-843E-22EC5C88364D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{BCF253AE-3E33-44C8-B64C-2F423585FB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCF253AE-3E33-44C8-B64C-2F423585FB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCF253AE-3E33-44C8-B64C-2F423585FB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7D67C9-B8A5-42D5-8C01-E5969ADF9398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7D67C9-B8A5-42D5-8C01-E5969ADF9398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7D67C9-B8A5-42D5-8C01-E5969ADF9398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7D67C9-B8A5-42D5-8C01-E5969ADF9398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654F7990-22E0-468C-843E-22EC5C88364D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654F7990-22E0-468C-843E-22EC5C88364D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654F7990-22E0-468C-843E-22EC5C88364D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654F7990-22E0-468C-843E-22EC5C88364D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

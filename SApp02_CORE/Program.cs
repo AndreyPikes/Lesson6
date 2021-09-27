@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SApp02
+namespace SApp02_CORE
 {
     class Program
     {
@@ -43,12 +43,12 @@ namespace SApp02
 
             DirectoryInfo directoryInfo1 = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory); // - работает
             DirectoryInfo directoryInfo2 = new DirectoryInfo(Environment.CurrentDirectory); // - работает вместе с названием ЕХЕ
-            //DirectoryInfo directoryInfo3 = new DirectoryInfo(System.Net.Mime.MediaTypeNames.Application.ExecutablePath);
-            DirectoryInfo directoryInfo4 = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location); //- работает
-            //DirectoryInfo directoryInfo5 = new DirectoryInfo(System.Net.Mime.MediaTypeNames.Application.StartupPath);
+                //DirectoryInfo directoryInfo3 = new DirectoryInfo(System.Net.Mime.MediaTypeNames.Application.ExecutablePath);
+            //DirectoryInfo directoryInfo4 = new DirectoryInfo(System.Reflection.Assembly.GetExecutingAssembly().Location); //- работает только в Visual studio
+                //DirectoryInfo directoryInfo5 = new DirectoryInfo(System.Net.Mime.MediaTypeNames.Application.StartupPath);
 
             Console.WriteLine($"FullName {directoryInfo2.FullName}");
-            Console.WriteLine($"FullName {directoryInfo4.FullName}");
+            
 
             Console.WriteLine($"FullName {directoryInfo1.FullName}");
             Console.WriteLine($"Name {directoryInfo1.Name}");
